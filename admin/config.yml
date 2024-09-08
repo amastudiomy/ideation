@@ -1545,13 +1545,6 @@ collections:
             name: 16bdc13e
             widget: string
           - hint: >-
-              Original link:
-              https://ideation-staging.webflow.io/about#companyprofile, key:
-              -ece6a07
-            label: Link
-            name: '-ece6a07'
-            widget: string
-          - hint: >-
               Original link: https://ideation-staging.webflow.io/about#services,
               key: -7d54ba75
             label: Link

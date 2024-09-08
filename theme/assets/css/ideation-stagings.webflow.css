@@ -7,7 +7,7 @@
   --borders: #ccd2d4;
   --button-text: white;
   --button-color: #f87d1a;
-  --button-hover: rgba(248, 125, 26, .27);
+  --button-hover: #f87d1a45;
   --brand-color: #f87d1a;
   --placeholder-color: #757575;
   --button-text-hover: white;
@@ -594,8 +594,7 @@ a:hover {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
-  align-items: center;
-  justify-items: center;
+  place-items: center;
   display: grid;
 }
 
@@ -625,8 +624,7 @@ a:hover {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
-  align-items: center;
-  justify-items: center;
+  place-items: center;
   display: grid;
 }
 
@@ -656,8 +654,7 @@ a:hover {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
-  align-items: center;
-  justify-items: center;
+  place-items: center;
   display: grid;
 }
 
@@ -677,8 +674,7 @@ a:hover {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
-  align-items: center;
-  justify-items: center;
+  place-items: center;
   display: grid;
 }
 
@@ -2000,7 +1996,6 @@ a:hover {
 }
 
 .position-sticky {
-  position: -webkit-sticky;
   position: sticky;
   top: 1.5rem;
 }
@@ -2203,15 +2198,15 @@ a:hover {
 }
 
 .text-shadow-small {
-  text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+  text-shadow: 0 1px 2px #0003;
 }
 
 .text-shadow-medium {
-  text-shadow: 0 2px 5px rgba(0, 0, 0, .24);
+  text-shadow: 0 2px 5px #0000003d;
 }
 
 .text-shadow-large {
-  text-shadow: 1px 3px 10px rgba(0, 0, 0, .32);
+  text-shadow: 1px 3px 10px #00000052;
 }
 
 .static {
@@ -2228,74 +2223,47 @@ a:hover {
 
 .absolute-top-left {
   position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: auto;
+  inset: 0% auto auto 0%;
 }
 
 .absolute-top-right {
   position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: auto;
-  right: 0%;
+  inset: 0% 0% auto auto;
 }
 
 .absolute-bottom-left {
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: auto;
+  inset: auto auto 0% 0%;
 }
 
 .absolute-bottom-right {
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
+  inset: auto 0% 0% auto;
 }
 
 .absolute-left {
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: auto;
+  inset: 0% auto 0% 0%;
 }
 
 .absolute-right {
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
+  inset: 0% 0% 0% auto;
 }
 
 .absolute-bottom {
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: auto 0% 0%;
 }
 
 .absolute-top {
   position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: 0% 0% auto;
 }
 
 .absolute-full {
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .fixed {
@@ -2304,107 +2272,74 @@ a:hover {
 
 .fixed-top-left {
   position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: auto;
+  inset: 0% auto auto 0%;
 }
 
 .fixed-top-right {
   position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: auto;
-  right: 0%;
+  inset: 0% 0% auto auto;
 }
 
 .fixed-bottom-left {
   position: fixed;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: auto;
+  inset: auto auto 0% 0%;
 }
 
 .fixed-bottom-right {
   position: fixed;
-  top: auto;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
+  inset: auto 0% 0% auto;
 }
 
 .fixed-left {
   position: fixed;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: auto;
+  inset: 0% auto 0% 0%;
 }
 
 .fixed-right {
   position: fixed;
-  top: 0%;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
+  inset: 0% 0% 0% auto;
 }
 
 .fixed-bottom {
   position: fixed;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: auto 0% 0%;
 }
 
 .fixed-top {
   position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: 0% 0% auto;
 }
 
 .fixed-full {
   position: fixed;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .sticky {
-  position: -webkit-sticky;
   position: sticky;
 }
 
 .sticky-top-0 {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
 
 .sticky-top-1 {
-  position: -webkit-sticky;
   position: sticky;
   top: 1rem;
 }
 
 .sticky-top-2 {
-  position: -webkit-sticky;
   position: sticky;
   top: 2rem;
 }
 
 .sticky-top-3 {
-  position: -webkit-sticky;
   position: sticky;
   top: 3rem;
 }
 
 .sticky-top-6 {
-  position: -webkit-sticky;
   position: sticky;
   top: 6rem;
 }
@@ -2564,7 +2499,7 @@ a:hover {
 }
 
 .hatch-color-swatch.border-hover {
-  background-color: rgba(248, 125, 26, .38);
+  background-color: #f87d1a61;
 }
 
 .hatch-color-swatch.link-color {
@@ -2907,15 +2842,15 @@ a:hover {
 }
 
 .box-shadow-small {
-  box-shadow: 0 2px 5px -1px rgba(50, 50, 93, .25), 0 1px 3px -1px rgba(0, 0, 0, .3);
+  box-shadow: 0 2px 5px -1px #32325d40, 0 1px 3px -1px #0000004d;
 }
 
 .box-shadow-medium {
-  box-shadow: 0 10px 15px -3px rgba(50, 50, 93, .2), 0 4px 6px -2px rgba(0, 0, 0, .5);
+  box-shadow: 0 10px 15px -3px #32325d33, 0 4px 6px -2px #00000080;
 }
 
 .box-shadow-large {
-  box-shadow: inset 0 1px 1px rgba(255, 255, 255, .1), 0 50px 100px -20px rgba(50, 50, 93, .25), 0 30px 60px -30px rgba(0, 0, 0, .3);
+  box-shadow: inset 0 1px 1px #ffffff1a, 0 50px 100px -20px #32325d40, 0 30px 60px -30px #0000004d;
 }
 
 .radius-none {
@@ -3204,39 +3139,39 @@ a:hover {
 }
 
 .background-color-white-10 {
-  background-color: rgba(255, 255, 255, .1);
+  background-color: #ffffff1a;
 }
 
 .background-color-white-20 {
-  background-color: rgba(255, 255, 255, .2);
+  background-color: #fff3;
 }
 
 .background-color-white-30 {
-  background-color: rgba(255, 255, 255, .3);
+  background-color: #ffffff4d;
 }
 
 .background-color-white-40 {
-  background-color: rgba(255, 255, 255, .4);
+  background-color: #fff6;
 }
 
 .background-color-white-50 {
-  background-color: rgba(255, 255, 255, .5);
+  background-color: #ffffff80;
 }
 
 .background-color-white-60 {
-  background-color: rgba(255, 255, 255, .6);
+  background-color: #fff9;
 }
 
 .background-color-white-70 {
-  background-color: rgba(255, 255, 255, .7);
+  background-color: #ffffffb3;
 }
 
 .background-color-white-80 {
-  background-color: rgba(255, 255, 255, .8);
+  background-color: #fffc;
 }
 
 .background-color-white-90 {
-  background-color: rgba(255, 255, 255, .9);
+  background-color: #ffffffe6;
 }
 
 .background-color-white {
@@ -3244,39 +3179,39 @@ a:hover {
 }
 
 .background-color-black-10 {
-  background-color: rgba(0, 0, 0, .1);
+  background-color: #0000001a;
 }
 
 .background-color-black-20 {
-  background-color: rgba(0, 0, 0, .2);
+  background-color: #0003;
 }
 
 .background-color-black-30 {
-  background-color: rgba(0, 0, 0, .3);
+  background-color: #0000004d;
 }
 
 .background-color-black-40 {
-  background-color: rgba(0, 0, 0, .4);
+  background-color: #0006;
 }
 
 .background-color-black-50 {
-  background-color: rgba(0, 0, 0, .5);
+  background-color: #00000080;
 }
 
 .background-color-black-60 {
-  background-color: rgba(0, 0, 0, .6);
+  background-color: #0009;
 }
 
 .background-color-black-70 {
-  background-color: rgba(0, 0, 0, .7);
+  background-color: #000000b3;
 }
 
 .background-color-black-80 {
-  background-color: rgba(0, 0, 0, .8);
+  background-color: #000c;
 }
 
 .background-color-black-90 {
-  background-color: rgba(0, 0, 0, .9);
+  background-color: #000000e6;
 }
 
 .background-color-black {
@@ -3284,7 +3219,7 @@ a:hover {
 }
 
 .background-color-transparent {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
 }
 
 .text-color-headings {
@@ -3368,7 +3303,7 @@ a:hover {
 
 .hero-heading {
   color: #fff;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, .38);
+  text-shadow: 2px 2px 5px #00000061;
   margin-bottom: 2rem;
 }
 
@@ -3392,7 +3327,7 @@ a:hover {
 
 .logo_wrapper_social-proof {
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, .16);
+  border: 1px solid #00000029;
   border-radius: 50%;
   flex-direction: column;
   justify-content: center;
@@ -3460,26 +3395,20 @@ a:hover {
 
 .navbar {
   z-index: 20;
-  background-color: rgba(0, 0, 0, .47);
+  background-color: #00000078;
   max-width: 100vw;
   padding-top: 10px;
   position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: 0% 0% auto;
 }
 
 .hero-gradient {
   z-index: 2;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, .91), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right, #000000e8, #0000);
   width: 100%;
   display: block;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .navbar_container {
@@ -3496,10 +3425,7 @@ a:hover {
   padding-left: 5px;
   display: none;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: auto;
+  inset: 0% auto 0% 0%;
 }
 
 .grid-2 {
@@ -3546,7 +3472,7 @@ a:hover {
   border-radius: .5rem;
   height: 100%;
   padding: 2rem;
-  box-shadow: 0 0 2.5rem rgba(0, 0, 0, .05);
+  box-shadow: 0 0 2.5rem #0000000d;
 }
 
 .features3_layout {
@@ -3598,14 +3524,11 @@ a:hover {
 }
 
 .hero-slider {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   width: 100%;
   height: 100vh;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .hero-slider._80vh {
@@ -3620,10 +3543,7 @@ a:hover {
   max-width: none;
   min-height: 100%;
   position: absolute;
-  top: auto;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: auto 0%;
 }
 
 .collection-item {
@@ -3634,13 +3554,11 @@ a:hover {
 
 .container_services {
   max-width: 100%;
-  position: -webkit-sticky;
   position: sticky;
   top: 25%;
 }
 
 .container_services.position-sticky {
-  position: -webkit-sticky;
   position: sticky;
   top: 25%;
 }
@@ -3665,8 +3583,7 @@ a:hover {
 
 .grid-4 {
   grid-template-columns: 1fr 1fr 1fr;
-  align-content: start;
-  justify-content: center;
+  place-content: start center;
 }
 
 .clients_logo {
@@ -3715,14 +3632,12 @@ a:hover {
 
 .socmed-grid-image {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  align-items: stretch;
-  justify-items: center;
+  place-items: stretch center;
 }
 
 .footer-spacer {
   z-index: 0;
   height: 30vh;
-  position: -webkit-sticky;
   position: sticky;
   bottom: 0%;
   left: 0;
@@ -3786,7 +3701,7 @@ a:hover {
 }
 
 .social-media_link {
-  background-color: rgba(255, 114, 0, .39);
+  background-color: #ff720063;
   border-radius: .25rem;
   justify-content: center;
   align-items: center;
@@ -3824,8 +3739,7 @@ a:hover {
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
   justify-content: space-between;
-  align-items: center;
-  justify-items: end;
+  place-items: center end;
   display: flex;
 }
 
@@ -3956,10 +3870,7 @@ a:hover {
   height: 100%;
   display: flex;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
   overflow: hidden;
 }
 
@@ -3989,10 +3900,7 @@ a:hover {
   padding: 24px;
   display: flex;
   position: absolute;
-  top: auto;
-  bottom: 5vw;
-  left: auto;
-  right: 0;
+  inset: auto 0 5vw auto;
 }
 
 .hover-link-wrapper.project-view-link {
@@ -4025,7 +3933,7 @@ a:hover {
   color: #fff;
   letter-spacing: 3px;
   text-transform: uppercase;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #fff0;
   border-radius: 100%;
   justify-content: center;
   align-items: center;
@@ -4193,7 +4101,7 @@ a:hover {
   max-width: 32rem;
   padding: 2rem;
   display: none;
-  box-shadow: 0 0 2.5rem rgba(0, 0, 0, .05);
+  box-shadow: 0 0 2.5rem #0000000d;
 }
 
 .section-title {
@@ -4303,10 +4211,7 @@ a:hover {
 
 .hero-logo.margin-bottom-2.hero-logo-absolute {
   position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: auto;
-  right: 0%;
+  inset: 0% 0% auto auto;
 }
 
 .hero-logo-2 {
@@ -4332,7 +4237,6 @@ a:hover {
   padding-bottom: 20px;
   font-family: Poppins, sans-serif;
   display: grid;
-  position: -webkit-sticky;
   position: sticky;
   top: 10vh;
   bottom: 0;
@@ -4347,10 +4251,7 @@ a:hover {
   max-width: 100%;
   display: none;
   position: fixed;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .hero-loading-page {
@@ -4360,10 +4261,7 @@ a:hover {
   height: auto;
   display: none;
   position: fixed;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .hero-heading-wrapper-2 {
@@ -4373,10 +4271,7 @@ a:hover {
 
 .hero-heading-wrapper-2.absolute-bottom-left.padding-bottom-20 {
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: auto;
+  inset: auto auto 0% 0%;
 }
 
 .hero-heading-wrapper-3 {
@@ -4384,10 +4279,7 @@ a:hover {
   padding-bottom: 0;
   padding-left: 1.5rem;
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: auto;
+  inset: auto auto 0% 0%;
 }
 
 .grid-facilities-wrapper {
@@ -4613,10 +4505,7 @@ a:hover {
   border-radius: .5rem;
   width: 50%;
   position: absolute;
-  top: 220px;
-  bottom: auto;
-  left: 0%;
-  right: auto;
+  inset: 220px auto auto 0%;
 }
 
 .client_image.clw2, .client_image.clw3, .client_image.clw4, .client_image.clw5, .client_image.clw6, .client_image.clw7, .client_image.clw8, .client_image.clw9, .client_image.clw10, .client_image.clw11, .client_image.clw12, .client_image.clw13, .client_image.clw14, .client_image.clw15, .client_image.clw16, .client_image.clw17, .client_image.clw18 {
@@ -4647,7 +4536,7 @@ a:hover {
 }
 
 .sirim-popup-wrapper {
-  background-color: rgba(218, 215, 208, .95);
+  background-color: #dad7d0f2;
   border-radius: .5rem;
   min-width: 40%;
   max-width: 60%;
@@ -4674,17 +4563,14 @@ a:hover {
 
 .popup-bg {
   z-index: 99;
-  background-color: rgba(0, 0, 0, .9);
+  background-color: #000000e6;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-top: 6rem;
   display: none;
   position: fixed;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .x-wrapper {
@@ -4693,18 +4579,12 @@ a:hover {
   font-size: 2rem;
   font-weight: 800;
   position: absolute;
-  top: 10px;
-  bottom: auto;
-  left: auto;
-  right: 20px;
+  inset: 10px 20px auto auto;
 }
 
 .grid-img {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  inset: 0;
 }
 
 .grid-img._3 {
@@ -4751,7 +4631,7 @@ a:hover {
 }
 
 .grid-content-overlay-block {
-  background-color: rgba(255, 255, 255, .85);
+  background-color: #ffffffd9;
   border-radius: .4rem;
   justify-content: center;
   align-items: center;
@@ -4765,10 +4645,7 @@ a:hover {
   opacity: 0;
   padding: 10px;
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  inset: 0;
 }
 
 .grid-smallsubheading {
@@ -4901,10 +4778,7 @@ a:hover {
   padding: 10px 20px 20px;
   display: flex;
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: auto;
+  inset: auto auto 0% 0%;
 }
 
 .hero-project-logo-img {
@@ -4944,10 +4818,7 @@ a:hover {
   z-index: 1;
   background-color: #fff;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .section-hero-copy {
@@ -4995,10 +4866,7 @@ a:hover {
   transition: all .3s;
   display: flex;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
+  inset: 0% 0% 0% auto;
   box-shadow: inset 0 0 #feba88;
 }
 
@@ -5048,7 +4916,7 @@ a:hover {
 
 .input {
   z-index: 0;
-  border: 1px solid rgba(30, 30, 47, .2);
+  border: 1px solid #1e1e2f33;
   border-radius: 0;
   width: 300px;
   height: 64px;
@@ -5059,7 +4927,7 @@ a:hover {
 }
 
 .input:hover {
-  border-color: rgba(30, 30, 47, .4);
+  border-color: #1e1e2f66;
 }
 
 .input:focus {
@@ -5078,16 +4946,16 @@ a:hover {
   margin-bottom: 0;
   padding-left: 50px;
   font-size: 20px;
-  box-shadow: 0 46px 50px rgba(0, 0, 0, .03);
+  box-shadow: 0 46px 50px #00000008;
 }
 
 .input.mod--hero:hover {
-  box-shadow: 0 46px 50px rgba(0, 0, 0, .1);
+  box-shadow: 0 46px 50px #0000001a;
 }
 
 .input.mod--hero:focus {
   border-color: #97c680;
-  box-shadow: 0 46px 50px rgba(0, 0, 0, .1);
+  box-shadow: 0 46px 50px #0000001a;
 }
 
 .main {
@@ -5207,12 +5075,9 @@ a:hover {
 .hero__person-grad {
   z-index: 1;
   color: #fff;
-  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .8));
+  background-image: linear-gradient(#0000 50%, #000c);
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .hero__person-cont {
@@ -5329,24 +5194,18 @@ a:hover {
 
 .f-logo-gradient-r {
   z-index: 5;
-  background-image: linear-gradient(267deg, #fff, #fff 21%, rgba(255, 255, 255, .64) 51%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(267deg, #fff, #fff 21%, #ffffffa3 51%, #fff0);
   width: 140px;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
+  inset: 0% 0% 0% auto;
 }
 
 .f-logo-gradient-l {
   z-index: 5;
-  background-image: linear-gradient(to right, #fff, #fff 25%, rgba(255, 255, 255, .73) 60%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(to right, #fff, #fff 25%, #ffffffba 60%, #fff0);
   width: 140px;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: auto;
+  inset: 0% auto 0% 0%;
 }
 
 .f-logo-css {
@@ -5376,7 +5235,6 @@ a:hover {
 .f-section-large {
   cursor: default;
   max-width: 100vw;
-  position: -webkit-sticky;
   position: sticky;
   bottom: 0;
   overflow: hidden;
@@ -5426,10 +5284,7 @@ a:hover {
   height: 150vh;
   display: block;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .zoom {
@@ -5442,7 +5297,7 @@ a:hover {
 
 .heading-3 {
   z-index: 1;
-  color: rgba(51, 51, 51, 0);
+  color: #3330;
   text-align: center;
   letter-spacing: .8vw;
   margin-bottom: 40px;
@@ -5458,7 +5313,6 @@ a:hover {
   align-items: center;
   height: 100vh;
   display: flex;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   overflow: hidden;
@@ -5473,10 +5327,7 @@ a:hover {
   height: 200vh;
   max-height: none;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
   overflow: hidden;
 }
 
@@ -5512,7 +5363,6 @@ a:hover {
   width: 20vw;
   padding-top: 10vh;
   display: flex;
-  position: -webkit-sticky;
   position: sticky;
 }
 
@@ -5527,10 +5377,7 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: auto 0% 0%;
 }
 
 .svg-white {
@@ -5538,10 +5385,7 @@ a:hover {
   width: 20vw;
   margin: auto;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .image-3 {
@@ -5554,22 +5398,16 @@ a:hover {
 
 .blured-bg {
   filter: blur(11px);
-  background-color: rgba(255, 255, 255, .14);
+  background-color: #ffffff24;
   width: 100vw;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .image-6 {
   width: 100vw;
   position: fixed;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: auto 0% 0%;
 }
 
 .hero-bg-desc-wrapper {
@@ -5577,10 +5415,7 @@ a:hover {
   margin-bottom: 2rem;
   display: flex;
   position: absolute;
-  top: auto;
-  bottom: 4px;
-  left: 2%;
-  right: auto;
+  inset: auto auto 4px 2%;
 }
 
 .image-7 {
@@ -5686,7 +5521,6 @@ a:hover {
 .marquee {
   max-height: 90px;
   margin-bottom: 4rem;
-  position: -webkit-sticky;
   position: sticky;
   bottom: 1rem;
 }
@@ -8301,15 +8135,15 @@ a:hover {
   }
 
   .tablet-text-shadow-small {
-    text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    text-shadow: 0 1px 2px #0003;
   }
 
   .tablet-text-shadow-medium {
-    text-shadow: 0 2px 5px rgba(0, 0, 0, .24);
+    text-shadow: 0 2px 5px #0000003d;
   }
 
   .tablet-text-shadow-large {
-    text-shadow: 1px 3px 10px rgba(0, 0, 0, .32);
+    text-shadow: 1px 3px 10px #00000052;
   }
 
   .tablet-static {
@@ -8326,74 +8160,47 @@ a:hover {
 
   .tablet-absolute-top-left {
     position: absolute;
-    top: 0%;
-    bottom: auto;
-    left: 0%;
-    right: auto;
+    inset: 0% auto auto 0%;
   }
 
   .tablet-absolute-top-right {
     position: absolute;
-    top: 0%;
-    bottom: auto;
-    left: auto;
-    right: 0%;
+    inset: 0% 0% auto auto;
   }
 
   .tablet-absolute-bottom-left {
     position: absolute;
-    top: auto;
-    bottom: 0%;
-    left: 0%;
-    right: auto;
+    inset: auto auto 0% 0%;
   }
 
   .tablet-absolute-bottom-right {
     position: absolute;
-    top: auto;
-    bottom: 0%;
-    left: auto;
-    right: 0%;
+    inset: auto 0% 0% auto;
   }
 
   .tablet-absolute-left {
     position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: auto;
+    inset: 0% auto 0% 0%;
   }
 
   .tablet-absolute-right {
     position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: auto;
-    right: 0%;
+    inset: 0% 0% 0% auto;
   }
 
   .tablet-absolute-bottom {
     position: absolute;
-    top: auto;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
+    inset: auto 0% 0%;
   }
 
   .tablet-absolute-top {
     position: absolute;
-    top: 0%;
-    bottom: auto;
-    left: 0%;
-    right: 0%;
+    inset: 0% 0% auto;
   }
 
   .tablet-absolute-full {
     position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
+    inset: 0%;
   }
 
   .tablet-fixed {
@@ -8402,107 +8209,74 @@ a:hover {
 
   .tablet-fixed-top-left {
     position: fixed;
-    top: 0%;
-    bottom: auto;
-    left: 0%;
-    right: auto;
+    inset: 0% auto auto 0%;
   }
 
   .tablet-fixed-top-right {
     position: fixed;
-    top: 0%;
-    bottom: auto;
-    left: auto;
-    right: 0%;
+    inset: 0% 0% auto auto;
   }
 
   .tablet-fixed-bottom-left {
     position: fixed;
-    top: auto;
-    bottom: 0%;
-    left: 0%;
-    right: auto;
+    inset: auto auto 0% 0%;
   }
 
   .tablet-fixed-bottom-right {
     position: fixed;
-    top: auto;
-    bottom: 0%;
-    left: auto;
-    right: 0%;
+    inset: auto 0% 0% auto;
   }
 
   .tablet-fixed-left {
     position: fixed;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: auto;
+    inset: 0% auto 0% 0%;
   }
 
   .tablet-fixed-right {
     position: fixed;
-    top: 0%;
-    bottom: 0%;
-    left: auto;
-    right: 0%;
+    inset: 0% 0% 0% auto;
   }
 
   .tablet-fixed-bottom {
     position: fixed;
-    top: auto;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
+    inset: auto 0% 0%;
   }
 
   .tablet-fixed-top {
     position: fixed;
-    top: 0%;
-    bottom: auto;
-    left: 0%;
-    right: 0%;
+    inset: 0% 0% auto;
   }
 
   .tablet-fixed-full {
     position: fixed;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
+    inset: 0%;
   }
 
   .tablet-sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
   .tablet-sticky-top-0 {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
   }
 
   .tablet-sticky-top-1 {
-    position: -webkit-sticky;
     position: sticky;
     top: 1rem;
   }
 
   .tablet-sticky-top-2 {
-    position: -webkit-sticky;
     position: sticky;
     top: 2rem;
   }
 
   .tablet-sticky-top-3 {
-    position: -webkit-sticky;
     position: sticky;
     top: 3rem;
   }
 
   .tablet-sticky-top-6 {
-    position: -webkit-sticky;
     position: sticky;
     top: 6rem;
   }
@@ -8848,15 +8622,15 @@ a:hover {
   }
 
   .tablet-box-shadow-large {
-    box-shadow: inset 0 1px 1px rgba(255, 255, 255, .1), 0 50px 100px -20px rgba(50, 50, 93, .25), 0 30px 60px -30px rgba(0, 0, 0, .3);
+    box-shadow: inset 0 1px 1px #ffffff1a, 0 50px 100px -20px #32325d40, 0 30px 60px -30px #0000004d;
   }
 
   .tablet-box-shadow-medium {
-    box-shadow: 0 10px 15px -3px rgba(50, 50, 93, .2), 0 4px 6px -2px rgba(0, 0, 0, .5);
+    box-shadow: 0 10px 15px -3px #32325d33, 0 4px 6px -2px #00000080;
   }
 
   .tablet-box-shadow-small {
-    box-shadow: 0 2px 5px -1px rgba(50, 50, 93, .25), 0 1px 3px -1px rgba(0, 0, 0, .3);
+    box-shadow: 0 2px 5px -1px #32325d40, 0 1px 3px -1px #0000004d;
   }
 
   .tablet-radius-none {
@@ -8960,7 +8734,7 @@ a:hover {
   }
 
   .navbar {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0000;
   }
 
   .grid-2 {
@@ -8983,22 +8757,19 @@ a:hover {
 
   .menu-button {
     z-index: 9999;
-    background-color: rgba(233, 229, 218, .37);
+    background-color: #e9e5da5e;
     border-radius: 50%;
     margin-top: 20px;
     margin-left: auto;
     margin-right: 20px;
     padding: 10px;
     position: fixed;
-    top: 0%;
-    bottom: auto;
-    left: auto;
-    right: 0%;
+    inset: 0% 0% auto auto;
   }
 
   .menu-button.w--open {
     z-index: 9;
-    background-color: rgba(233, 229, 218, .29);
+    background-color: #e9e5da4a;
   }
 
   .grid-3 {
@@ -9038,8 +8809,7 @@ a:hover {
     grid-template-rows: auto;
     grid-template-columns: .5fr 1fr .25fr;
     grid-auto-columns: 1fr;
-    align-items: end;
-    justify-items: start;
+    place-items: end start;
     display: grid;
   }
 
@@ -9162,10 +8932,7 @@ a:hover {
     padding-top: 10vh;
     padding-left: 20px;
     position: fixed;
-    top: 0%;
-    bottom: 0%;
-    left: auto;
-    right: 0%;
+    inset: 0% 0% 0% auto;
   }
 
   .hero-project-logo-container {
@@ -9331,10 +9098,7 @@ a:hover {
   .image-6 {
     object-fit: cover;
     height: 100%;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
+    inset: 0%;
   }
 }
 
@@ -12157,15 +11921,15 @@ a:hover {
   }
 
   .landscape-text-shadow-small {
-    text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    text-shadow: 0 1px 2px #0003;
   }
 
   .landscape-text-shadow-medium {
-    text-shadow: 0 2px 5px rgba(0, 0, 0, .24);
+    text-shadow: 0 2px 5px #0000003d;
   }
 
   .landscape-text-shadow-large {
-    text-shadow: 1px 3px 10px rgba(0, 0, 0, .32);
+    text-shadow: 1px 3px 10px #00000052;
   }
 
   .landscape-static {
@@ -12182,74 +11946,47 @@ a:hover {
 
   .landscape-absolute-top-left {
     position: absolute;
-    top: 0%;
-    bottom: auto;
-    left: 0%;
-    right: auto;
+    inset: 0% auto auto 0%;
   }
 
   .landscape-absolute-top-right {
     position: absolute;
-    top: 0%;
-    bottom: auto;
-    left: auto;
-    right: 0%;
+    inset: 0% 0% auto auto;
   }
 
   .landscape-absolute-bottom-left {
     position: absolute;
-    top: auto;
-    bottom: 0%;
-    left: 0%;
-    right: auto;
+    inset: auto auto 0% 0%;
   }
 
   .landscape-absolute-bottom-right {
     position: absolute;
-    top: auto;
-    bottom: 0%;
-    left: auto;
-    right: 0%;
+    inset: auto 0% 0% auto;
   }
 
   .landscape-absolute-left {
     position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: auto;
+    inset: 0% auto 0% 0%;
   }
 
   .landscape-absolute-right {
     position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: auto;
-    right: 0%;
+    inset: 0% 0% 0% auto;
   }
 
   .landscape-absolute-bottom {
     position: absolute;
-    top: auto;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
+    inset: auto 0% 0%;
   }
 
   .landscape-absolute-top {
     position: absolute;
-    top: 0%;
-    bottom: auto;
-    left: 0%;
-    right: 0%;
+    inset: 0% 0% auto;
   }
 
   .landscape-absolute-full {
     position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
+    inset: 0%;
   }
 
   .landscape-fixed {
@@ -12258,107 +11995,74 @@ a:hover {
 
   .landscape-fixed-top-left {
     position: fixed;
-    top: 0%;
-    bottom: auto;
-    left: 0%;
-    right: auto;
+    inset: 0% auto auto 0%;
   }
 
   .landscape-fixed-top-right {
     position: fixed;
-    top: 0%;
-    bottom: auto;
-    left: auto;
-    right: 0%;
+    inset: 0% 0% auto auto;
   }
 
   .landscape-fixed-bottom-left {
     position: fixed;
-    top: auto;
-    bottom: 0%;
-    left: 0%;
-    right: auto;
+    inset: auto auto 0% 0%;
   }
 
   .landscape-fixed-bottom-right {
     position: fixed;
-    top: auto;
-    bottom: 0%;
-    left: auto;
-    right: 0%;
+    inset: auto 0% 0% auto;
   }
 
   .landscape-fixed-left {
     position: fixed;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: auto;
+    inset: 0% auto 0% 0%;
   }
 
   .landscape-fixed-right {
     position: fixed;
-    top: 0%;
-    bottom: 0%;
-    left: auto;
-    right: 0%;
+    inset: 0% 0% 0% auto;
   }
 
   .landscape-fixed-bottom {
     position: fixed;
-    top: auto;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
+    inset: auto 0% 0%;
   }
 
   .landscape-fixed-top {
     position: fixed;
-    top: 0%;
-    bottom: auto;
-    left: 0%;
-    right: 0%;
+    inset: 0% 0% auto;
   }
 
   .landscape-fixed-full {
     position: fixed;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
+    inset: 0%;
   }
 
   .landscape-sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
   .landscape-sticky-top-0 {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
   }
 
   .landscape-sticky-top-1 {
-    position: -webkit-sticky;
     position: sticky;
     top: 1rem;
   }
 
   .landscape-sticky-top-2 {
-    position: -webkit-sticky;
     position: sticky;
     top: 2rem;
   }
 
   .landscape-sticky-top-3 {
-    position: -webkit-sticky;
     position: sticky;
     top: 3rem;
   }
 
   .landscape-sticky-top-6 {
-    position: -webkit-sticky;
     position: sticky;
     top: 6rem;
   }
@@ -12688,15 +12392,15 @@ a:hover {
   }
 
   .landscape-box-shadow-large {
-    box-shadow: inset 0 1px 1px rgba(255, 255, 255, .1), 0 50px 100px -20px rgba(50, 50, 93, .25), 0 30px 60px -30px rgba(0, 0, 0, .3);
+    box-shadow: inset 0 1px 1px #ffffff1a, 0 50px 100px -20px #32325d40, 0 30px 60px -30px #0000004d;
   }
 
   .landscape-box-shadow-medium {
-    box-shadow: 0 10px 15px -3px rgba(50, 50, 93, .2), 0 4px 6px -2px rgba(0, 0, 0, .5);
+    box-shadow: 0 10px 15px -3px #32325d33, 0 4px 6px -2px #00000080;
   }
 
   .landscape-box-shadow-small {
-    box-shadow: 0 2px 5px -1px rgba(50, 50, 93, .25), 0 1px 3px -1px rgba(0, 0, 0, .3);
+    box-shadow: 0 2px 5px -1px #32325d40, 0 1px 3px -1px #0000004d;
   }
 
   .landscape-radius-none {
@@ -12810,8 +12514,7 @@ a:hover {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     grid-template-columns: auto auto auto;
-    align-content: space-around;
-    justify-content: space-around;
+    place-content: space-around;
   }
 
   .clients_logo {
@@ -12836,8 +12539,7 @@ a:hover {
     grid-template-columns: 1fr;
     grid-auto-columns: 1fr;
     justify-content: start;
-    align-items: flex-start;
-    justify-items: start;
+    place-items: flex-start start;
     display: grid;
   }
 
@@ -12862,10 +12564,8 @@ a:hover {
   }
 
   .footer2_content {
-    align-content: space-between;
-    justify-content: center;
-    align-items: end;
-    justify-items: center;
+    place-content: space-between center;
+    place-items: end center;
   }
 
   .padding-vertical {
@@ -12898,10 +12598,7 @@ a:hover {
   }
 
   .hover-link-wrapper.project-view-link.top {
-    top: auto;
-    bottom: auto;
-    left: auto;
-    right: auto;
+    inset: auto;
   }
 
   .project-item {
@@ -13075,11 +12772,11 @@ a:hover {
     height: 86px;
     padding-left: 32px;
     font-size: 16px;
-    box-shadow: 0 32px 36px rgba(0, 0, 0, .03);
+    box-shadow: 0 32px 36px #00000008;
   }
 
   .input.mod--hero:hover, .input.mod--hero:focus {
-    box-shadow: 0 32px 36px rgba(0, 0, 0, .1);
+    box-shadow: 0 32px 36px #0000001a;
   }
 
   .swiper-slide {
@@ -15571,15 +15268,15 @@ a:hover {
   }
 
   .portrait-text-shadow-small {
-    text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    text-shadow: 0 1px 2px #0003;
   }
 
   .portrait-text-shadow-medium {
-    text-shadow: 0 2px 5px rgba(0, 0, 0, .24);
+    text-shadow: 0 2px 5px #0000003d;
   }
 
   .portrait-text-shadow-large {
-    text-shadow: 1px 3px 10px rgba(0, 0, 0, .32);
+    text-shadow: 1px 3px 10px #00000052;
   }
 
   .portrait-static {
@@ -15596,74 +15293,47 @@ a:hover {
 
   .portrait-absolute-top-left {
     position: absolute;
-    top: 0%;
-    bottom: auto;
-    left: 0%;
-    right: auto;
+    inset: 0% auto auto 0%;
   }
 
   .portrait-absolute-top-right {
     position: absolute;
-    top: 0%;
-    bottom: auto;
-    left: auto;
-    right: 0%;
+    inset: 0% 0% auto auto;
   }
 
   .portrait-absolute-bottom-left {
     position: absolute;
-    top: auto;
-    bottom: 0%;
-    left: 0%;
-    right: auto;
+    inset: auto auto 0% 0%;
   }
 
   .portrait-absolute-bottom-right {
     position: absolute;
-    top: auto;
-    bottom: 0%;
-    left: auto;
-    right: 0%;
+    inset: auto 0% 0% auto;
   }
 
   .portrait-absolute-left {
     position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: auto;
+    inset: 0% auto 0% 0%;
   }
 
   .portrait-absolute-right {
     position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: auto;
-    right: 0%;
+    inset: 0% 0% 0% auto;
   }
 
   .portrait-absolute-bottom {
     position: absolute;
-    top: auto;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
+    inset: auto 0% 0%;
   }
 
   .portrait-absolute-top {
     position: absolute;
-    top: 0%;
-    bottom: auto;
-    left: 0%;
-    right: 0%;
+    inset: 0% 0% auto;
   }
 
   .portrait-absolute-full {
     position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
+    inset: 0%;
   }
 
   .portrait-fixed {
@@ -15672,107 +15342,74 @@ a:hover {
 
   .portrait-fixed-top-left {
     position: fixed;
-    top: 0%;
-    bottom: auto;
-    left: 0%;
-    right: auto;
+    inset: 0% auto auto 0%;
   }
 
   .portrait-fixed-top-right {
     position: fixed;
-    top: 0%;
-    bottom: auto;
-    left: auto;
-    right: 0%;
+    inset: 0% 0% auto auto;
   }
 
   .portrait-fixed-bottom-left {
     position: fixed;
-    top: auto;
-    bottom: 0%;
-    left: 0%;
-    right: auto;
+    inset: auto auto 0% 0%;
   }
 
   .portrait-fixed-bottom-right {
     position: fixed;
-    top: auto;
-    bottom: 0%;
-    left: auto;
-    right: 0%;
+    inset: auto 0% 0% auto;
   }
 
   .portrait-fixed-left {
     position: fixed;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: auto;
+    inset: 0% auto 0% 0%;
   }
 
   .portrait-fixed-right {
     position: fixed;
-    top: 0%;
-    bottom: 0%;
-    left: auto;
-    right: 0%;
+    inset: 0% 0% 0% auto;
   }
 
   .portrait-fixed-bottom {
     position: fixed;
-    top: auto;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
+    inset: auto 0% 0%;
   }
 
   .portrait-fixed-top {
     position: fixed;
-    top: 0%;
-    bottom: auto;
-    left: 0%;
-    right: 0%;
+    inset: 0% 0% auto;
   }
 
   .portrait-fixed-full {
     position: fixed;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
+    inset: 0%;
   }
 
   .portrait-sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
   .portrait-sticky-top-0 {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
   }
 
   .portrait-sticky-top-1 {
-    position: -webkit-sticky;
     position: sticky;
     top: 1rem;
   }
 
   .portrait-sticky-top-2 {
-    position: -webkit-sticky;
     position: sticky;
     top: 2rem;
   }
 
   .portrait-sticky-top-3 {
-    position: -webkit-sticky;
     position: sticky;
     top: 3rem;
   }
 
   .portrait-sticky-top-6 {
-    position: -webkit-sticky;
     position: sticky;
     top: 6rem;
   }
@@ -16078,15 +15715,15 @@ a:hover {
   }
 
   .portrait-box-shadow-large {
-    box-shadow: inset 0 1px 1px rgba(255, 255, 255, .1), 0 50px 100px -20px rgba(50, 50, 93, .25), 0 30px 60px -30px rgba(0, 0, 0, .3);
+    box-shadow: inset 0 1px 1px #ffffff1a, 0 50px 100px -20px #32325d40, 0 30px 60px -30px #0000004d;
   }
 
   .portrait-box-shadow-medium {
-    box-shadow: 0 10px 15px -3px rgba(50, 50, 93, .2), 0 4px 6px -2px rgba(0, 0, 0, .5);
+    box-shadow: 0 10px 15px -3px #32325d33, 0 4px 6px -2px #00000080;
   }
 
   .portrait-box-shadow-small {
-    box-shadow: 0 2px 5px -1px rgba(50, 50, 93, .25), 0 1px 3px -1px rgba(0, 0, 0, .3);
+    box-shadow: 0 2px 5px -1px #32325d40, 0 1px 3px -1px #0000004d;
   }
 
   .portrait-radius-none {
@@ -16513,8 +16150,7 @@ a:hover {
 
 #w-node-_281fa525-e1f0-f91c-a393-5a52e6bfee32-0ab1164e {
   grid-area: span 1 / span 1 / span 1 / span 1;
-  align-self: end;
-  justify-self: start;
+  place-self: end start;
 }
 
 #w-node-_281fa525-e1f0-f91c-a393-5a52e6bfee3b-0ab1164e, #w-node-_281fa525-e1f0-f91c-a393-5a52e6bfee3c-0ab1164e, #w-node-_281fa525-e1f0-f91c-a393-5a52e6bfee3e-0ab1164e, #w-node-_281fa525-e1f0-f91c-a393-5a52e6bfee40-0ab1164e, #w-node-_281fa525-e1f0-f91c-a393-5a52e6bfee42-0ab1164e, #w-node-_281fa525-e1f0-f91c-a393-5a52e6bfee44-0ab1164e, #w-node-_281fa525-e1f0-f91c-a393-5a52e6bfee46-0ab1164e {
@@ -16535,8 +16171,7 @@ a:hover {
 
 #w-node-_89a5e524-4e8e-813f-f8e7-662cb8aec6a9-0ab1164e {
   grid-area: span 1 / span 1 / span 1 / span 1;
-  align-self: center;
-  justify-self: center;
+  place-self: center;
 }
 
 #w-node-_1176b087-2caf-6797-7f49-deb46a846b78-0ab1164e, #w-node-d37ad39b-97f4-28d7-e9aa-3eb796b2289e-0ab1164e {
@@ -16585,8 +16220,7 @@ a:hover {
 @media screen and (max-width: 479px) {
   #w-node-_281fa525-e1f0-f91c-a393-5a52e6bfee32-0ab1164e {
     grid-area: span 1 / span 2 / span 1 / span 2;
-    align-self: end;
-    justify-self: start;
+    place-self: end start;
   }
 
   #w-node-_281fa525-e1f0-f91c-a393-5a52e6bfee4a-0ab1164e {

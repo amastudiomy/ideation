@@ -7,31 +7,40 @@ f_project-description-2: >-
   DAN BINA) - INTERIOR DESIGN, BUILT-IN & LOOSE FURNITURE WORKS.
 slug: hospital-kuala-lumpur
 f_logo:
-  url: /assets/external/6690f25d2b75ae2c1526f38a_johawaki.png
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/6690f25d2b75ae2c1526f38a_Johawaki.png
   alt: null
 f_bg-image:
-  url: /assets/external/667a72b27585718c0ab11751_hkl20johawaki201.JPG
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11751_HKL%20Johawaki%201.JPG
   alt: null
 f_image-no-2:
-  url: /assets/external/667a72b27585718c0ab11752_hkl20johawaki202.JPG
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11752_HKL%20Johawaki%202.JPG
   alt: null
 f_image-no-3:
-  url: /assets/external/667a72b27585718c0ab11753_hkl20johawaki203.JPG
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11753_HKL%20Johawaki%203.JPG
   alt: null
 f_image-no-4:
-  url: /assets/external/667a72b27585718c0ab11754_hkl20johawaki204.JPG
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11754_HKL%20Johawaki%204.JPG
   alt: null
 f_image-no-5:
-  url: /assets/external/667a72b27585718c0ab11755_hkl20johawaki205.JPG
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11755_HKL%20Johawaki%205.JPG
   alt: null
 f_image-no-6:
-  url: /assets/external/667a72b27585718c0ab11756_hkl20johawaki206.JPG
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11756_HKL%20Johawaki%206.JPG
   alt: null
 f_image-no-7:
-  url: /assets/external/667a72b27585718c0ab11757_hkl20johawaki207.JPG
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11757_HKL%20Johawaki%207.JPG
   alt: null
 f_image-no-8:
-  url: /assets/external/667a72b27585718c0ab11758_hkl20johawaki208.JPG
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11758_HKL%20Johawaki%208.JPG
   alt: null
 updated-on: '2024-07-15T17:07:21.969Z'
 created-on: '2023-07-16T06:31:14.104Z'

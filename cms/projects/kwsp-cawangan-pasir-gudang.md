@@ -7,25 +7,32 @@ f_project-description-2: >-
   KWSP Pasir Gudang, Johor.
 slug: kwsp-cawangan-pasir-gudang
 f_logo:
-  url: /assets/external/66921705465a7cfa46375076_kwsp20epf.png
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/66921705465a7cfa46375076_KWSP%20EPF.png
   alt: null
 f_image-no-2:
-  url: /assets/external/6692173fc67a77a8611e27e5_dscf5482.webp
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/6692173fc67a77a8611e27e5_DSCF5482.webp
   alt: null
 f_bg-image:
-  url: /assets/external/66921735118a5e4b17e5e4a7_dji_0523.webp
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/66921735118a5e4b17e5e4a7_DJI_0523.webp
   alt: null
 f_image-no-3:
-  url: /assets/external/669217437fe36a04cca89327_dscf5486.webp
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/669217437fe36a04cca89327_DSCF5486.webp
   alt: null
 f_image-no-5:
-  url: /assets/external/6692174adeed16d52f25716a_dscf5490.webp
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/6692174adeed16d52f25716a_DSCF5490.webp
   alt: null
 f_image-no-4:
-  url: /assets/external/669217473938d1b973ea09da_dscf5489.webp
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/669217473938d1b973ea09da_DSCF5489.webp
   alt: null
 f_image-no-6:
-  url: /assets/external/6692174df10e84623ec107b7_dscf5492.webp
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/6692174df10e84623ec107b7_DSCF5492.webp
   alt: null
 updated-on: '2024-07-15T17:06:59.458Z'
 created-on: '2024-07-13T05:57:37.289Z'

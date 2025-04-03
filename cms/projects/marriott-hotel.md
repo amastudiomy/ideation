@@ -8,31 +8,40 @@ f_project-description-2: >-
   OFF JALAN PAHANG, KUALA LUMPUR.
 slug: marriott-hotel
 f_logo:
-  url: /assets/external/63f21c930314aa3445351336_marriott20hotel20logo.png
+  url: >-
+    https://uploads-ssl.webflow.com/63f03ca6c1b7446d3867af14/63f21c930314aa3445351336_marriott%20hotel%20logo.png
   alt: null
 f_bg-image:
-  url: /assets/external/63f21b370b3cfe28ee1da19b_marriott2003.jpeg
+  url: >-
+    https://uploads-ssl.webflow.com/63f03ca6c1b7446d3867af14/63f21b370b3cfe28ee1da19b_Marriott%2003.jpeg
   alt: null
 f_image-no-2:
-  url: /assets/external/667a72b27585718c0ab11741_marriot20hotel202.jpeg
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11741_Marriot%20Hotel%202.jpeg
   alt: null
 f_image-no-3:
-  url: /assets/external/667a72b27585718c0ab11742_marriot20hotel203.jpg
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11742_Marriot%20Hotel%203.jpg
   alt: null
 f_image-no-4:
-  url: /assets/external/667a72b27585718c0ab11743_marriot20hotel204.jpg
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11743_Marriot%20Hotel%204.jpg
   alt: null
 f_image-no-6:
-  url: /assets/external/667a72b27585718c0ab11745_marriot20hotel206.jpg
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11745_Marriot%20Hotel%206.jpg
   alt: null
 f_image-no-5:
-  url: /assets/external/667a72b27585718c0ab11744_marriot20hotel205.jpg
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11744_Marriot%20Hotel%205.jpg
   alt: null
 f_image-no-7:
-  url: /assets/external/667a72b27585718c0ab11746_marriott207.jpeg
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11746_Marriott%207.jpeg
   alt: null
 f_image-no-8:
-  url: /assets/external/667a72b27585718c0ab11747_marriott2008.jpeg
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11747_Marriott%2008.jpeg
   alt: null
 updated-on: '2024-07-15T17:06:37.584Z'
 created-on: '2023-07-16T05:41:17.679Z'

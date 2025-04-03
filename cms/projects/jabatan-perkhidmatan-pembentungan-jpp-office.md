@@ -9,25 +9,32 @@ f_project-description-2: >-
   Lot 2c5, Precinct 2, Putrajaya.
 slug: jabatan-perkhidmatan-pembentungan-jpp-office
 f_logo:
-  url: /assets/external/669216e19093e3b94d16fe1d_putrajaya20holdings.png
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/669216e19093e3b94d16fe1d_Putrajaya%20Holdings.png
   alt: null
 f_bg-image:
-  url: /assets/external/669216b71b1de0ff2681e7d4_img_20201007_172516.webp
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/669216b71b1de0ff2681e7d4_IMG_20201007_172516.webp
   alt: null
 f_image-no-2:
-  url: /assets/external/669216b9465a7cfa46372822_img_20201007_143609.webp
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/669216b9465a7cfa46372822_IMG_20201007_143609.webp
   alt: null
 f_image-no-3:
-  url: /assets/external/669216b9231d261b55bdd56f_img_20201007_143731.webp
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/669216b9231d261b55bdd56f_IMG_20201007_143731.webp
   alt: null
 f_image-no-4:
-  url: /assets/external/669216bf392c3f24fdf16f0a_img_20201007_144336.webp
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/669216bf392c3f24fdf16f0a_IMG_20201007_144336.webp
   alt: null
 f_image-no-5:
-  url: /assets/external/669216c63c2d4716a9256b2d_img_20201008_165729.webp
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/669216c63c2d4716a9256b2d_IMG_20201008_165729.webp
   alt: null
 f_image-no-6:
-  url: /assets/external/669216cdc733b2b17720055f_img_20201008_171049.webp
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/669216cdc733b2b17720055f_IMG_20201008_171049.webp
   alt: null
 updated-on: '2024-07-15T17:07:46.070Z'
 created-on: '2024-07-13T05:55:47.869Z'

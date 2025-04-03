@@ -2285,7 +2285,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 6fe13522
+            name: '-75610649'
             widget: object
             fields:
               - name: url

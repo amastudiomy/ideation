@@ -8,19 +8,24 @@ f_project-description-2: >-
   DESIGN (ID) WORKS & FURNITURE (LOOSE & BUILT-IN FURNITURE)
 slug: kuliyyah-of-medicine
 f_logo:
-  url: /assets/external/667a72b27585718c0ab117a1_iium20logo.png
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab117a1_IIUM%20Logo.png
   alt: null
 f_bg-image:
-  url: /assets/external/667a72b27585718c0ab117a5_iium204.jpg
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab117a5_IIUM%204.jpg
   alt: null
 f_image-no-2:
-  url: /assets/external/667a72b27585718c0ab117a3_iium202.jpg
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab117a3_IIUM%202.jpg
   alt: null
 f_image-no-3:
-  url: /assets/external/667a72b27585718c0ab117a4_iium203.jpg
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab117a4_IIUM%203.jpg
   alt: null
 f_image-no-4:
-  url: /assets/external/667a72b27585718c0ab117a2_iium201.jpg
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab117a2_IIUM%201.jpg
   alt: null
 updated-on: '2024-07-15T17:11:27.917Z'
 created-on: '2023-07-16T07:46:44.954Z'

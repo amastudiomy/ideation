@@ -10,20 +10,23 @@ f_project-description-2: >-
 slug: perpustakaan-baru-awam-negeri-pahang
 f_logo:
   url: >-
-    /assets/external/667a72b27585718c0ab1173a_perbadanan20perpustakaan20awam20pahang.png
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab1173a_Perbadanan%20Perpustakaan%20Awam%20Pahang.png
   alt: null
 f_bg-image:
-  url: /assets/external/667a72b27585718c0ab1173e_counter-cafe.jpg
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab1173e_COUNTER-CAFE.jpg
   alt: null
 f_image-no-2:
   url: >-
-    /assets/external/667a72b27585718c0ab1173f_cover-pic-library-pahang-1-1024x577-1.jpg
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab1173f_COVER-PIC-Library-pahang-1-1024x577-1.jpg
   alt: null
 f_image-no-3:
-  url: /assets/external/667a72b27585718c0ab1173c_kaunter-utama-1024x577-1.jpg
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab1173c_KAUNTER-UTAMA-1024x577-1.jpg
   alt: null
 f_image-no-4:
-  url: /assets/external/667a72b27585718c0ab1173d_koleksi-n.PAHANG-1024x577-1.jpg
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab1173d_KOLEKSI-N.PAHANG-1024x577-1.jpg
   alt: null
 updated-on: '2024-07-15T17:10:22.468Z'
 created-on: '2023-07-16T07:29:58.048Z'

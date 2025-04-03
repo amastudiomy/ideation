@@ -4,7 +4,7 @@ title: Jamuan Aidilfitri Ideation 2015
 slug: jamuan-aidilfitri-ideation-2015
 f_main-image:
   url: >-
-    /assets/external/667a72b27585718c0ab11734_11796295_1177732475586827_1148718817578158048_n.jpg
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11734_11796295_1177732475586827_1148718817578158048_n.jpg
   alt: null
 updated-on: '2023-04-16T03:59:35.204Z'
 created-on: '2023-04-15T17:25:49.111Z'

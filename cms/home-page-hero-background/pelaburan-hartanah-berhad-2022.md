@@ -1,10 +1,12 @@
 ---
 title: Pelaburan Hartanah Berhad | 2022
 f_logo:
-  url: /assets/external/667a72b27585718c0ab11739_phb20logo.png
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11739_PHB%20logo.png
   alt: null
 f_background-image:
-  url: /assets/external/667a72b27585718c0ab1176b_4.JPG
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab1176b_4.JPG
   alt: null
 slug: pelaburan-hartanah-berhad-2022
 updated-on: '2023-07-17T15:18:05.284Z'

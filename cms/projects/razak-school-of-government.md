@@ -2,31 +2,40 @@
 title: Razak School of Government
 slug: razak-school-of-government
 f_logo:
-  url: /assets/external/667a72b27585718c0ab11739_phb20logo.png
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11739_PHB%20logo.png
   alt: null
 f_bg-image:
-  url: /assets/external/667a72b27585718c0ab11765_rsog2005.jpeg
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11765_RSOG%2005.jpeg
   alt: null
 f_image-no-2:
-  url: /assets/external/667a72b27585718c0ab11762_rsog201.jpg
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11762_RSOG%201.jpg
   alt: null
 f_image-no-4:
-  url: /assets/external/667a72b27585718c0ab11764_rsog2003.jpg
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11764_RSOG%2003.jpg
   alt: null
 f_image-no-3:
-  url: /assets/external/667a72b27585718c0ab11763_rsog2002.jpeg
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11763_RSOG%2002.jpeg
   alt: null
 f_image-no-5:
-  url: /assets/external/667a72b27585718c0ab11761_rsog2001.jpg
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11761_RSOG%2001.jpg
   alt: null
 f_image-no-6:
-  url: /assets/external/667a72b27585718c0ab11765_rsog2005.jpeg
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11765_RSOG%2005.jpeg
   alt: null
 f_image-no-7:
-  url: /assets/external/667a72b27585718c0ab11766_rsog2006.jpeg
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11766_RSOG%2006.jpeg
   alt: null
 f_image-no-8:
-  url: /assets/external/667a72b27585718c0ab11767_rsog2007.jpeg
+  url: >-
+    https://cdn.prod.website-files.com/667a72b27585718c0ab1167b/667a72b27585718c0ab11767_RSOG%2007.jpeg
   alt: null
 updated-on: '2024-07-15T17:07:36.946Z'
 created-on: '2023-07-16T06:53:31.018Z'

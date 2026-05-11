@@ -12834,6 +12834,15 @@ a:hover {
     padding: 10px;
   }
 
+  .grid-7 {
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+  }
+
   .marquee {
     margin-bottom: 2rem;
   }
@@ -15940,6 +15949,10 @@ a:hover {
     height: 3.5rem;
   }
 
+  .h3.text-color-brand {
+    text-align: center;
+  }
+
   .features4_list.margin-bottom-24 {
     grid-template-columns: 1fr;
   }
@@ -16139,6 +16152,8 @@ a:hover {
   }
 
   .grid-7 {
+    grid-column-gap: 4rem;
+    grid-row-gap: 4rem;
     grid-template-columns: 1fr;
   }
 

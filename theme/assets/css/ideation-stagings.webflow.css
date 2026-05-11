@@ -12835,8 +12835,6 @@ a:hover {
   }
 
   .grid-7 {
-    grid-column-gap: 2rem;
-    grid-row-gap: 2rem;
     flex-flow: column;
     justify-content: flex-start;
     align-items: center;
@@ -16152,8 +16150,6 @@ a:hover {
   }
 
   .grid-7 {
-    grid-column-gap: 4rem;
-    grid-row-gap: 4rem;
     grid-template-columns: 1fr;
   }
 

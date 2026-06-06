@@ -1284,6 +1284,70 @@ collections:
             label: Text
             name: 7ae8d2d2
             widget: string
+          - hint: 'Original text: Head of Project/ Site Manager, key: 43a9c3f5'
+            label: Text
+            name: 43a9c3f5
+            widget: string
+          - hint: 'Original text: Alif Aiman Bin Abu, key: 39362415'
+            label: Text
+            name: '39362415'
+            widget: string
+          - hint: 'Original text: Project Exec.(Architect), key: -3c8f225a'
+            label: Text
+            name: '-3c8f225a'
+            widget: string
+          - hint: >-
+              Original text: Bach. of Science Architecture, (IUKL), key:
+              -90c6276
+            label: Text
+            name: '-90c6276'
+            widget: string
+          - hint: 'Original text: Muhamad Hairi helmi Bin Mansor, key: 66b7a274'
+            label: Text
+            name: 66b7a274
+            widget: string
+          - hint: 'Original text: Project Exec., key: -76597e4a'
+            label: Text
+            name: '-76597e4a'
+            widget: string
+          - hint: 'Original text: (Fit-Out), key: d43e33f'
+            label: Text
+            name: d43e33f
+            widget: string
+          - hint: 'Original text: Dip. in Interior Design, (UiTM), key: -4f54f3c8'
+            label: Text
+            name: '-4f54f3c8'
+            widget: string
+          - hint: 'Original text: KHAIRUL AMRI B KAMARUL BASHAH, key: 461c0a1b'
+            label: Text
+            name: 461c0a1b
+            widget: string
+          - hint: 'Original text: Project Exec.(M&E), key: -17d49c11'
+            label: Text
+            name: '-17d49c11'
+            widget: string
+          - hint: >-
+              Original text: Bach. In Eng. Tech. Mechatronics , (UniKL MFI),
+              key: 4ee8c827
+            label: Text
+            name: 4ee8c827
+            widget: string
+          - hint: 'Original text: Faridah Binti Sani, key: 1069e534'
+            label: Text
+            name: '1069e534'
+            widget: string
+          - hint: >-
+              Original text: Head of Creative/ Senior Interior Designer, key:
+              27bbf034
+            label: Text
+            name: 27bbf034
+            widget: string
+          - hint: >-
+              Original text: Bach. of Interior Architecture (Hons.) (UiTM), key:
+              3795fbd5
+            label: Text
+            name: 3795fbd5
+            widget: string
           - hint: 'Original text: Farhani Binti Mahamad, key: -12e01d76'
             label: Text
             name: '-12e01d76'
@@ -1293,54 +1357,14 @@ collections:
             name: 40868b5b
             widget: string
           - hint: >-
-              Original text: Bach. of Applied Arts and Design (Honours), (IIUM),
-              key: 566d2521
+              Original text: Bach. of Applied Arts and Design (Hons.), (IIUM),
+              key: 17c8cad
             label: Text
-            name: 566d2521
-            widget: string
-          - hint: 'Original text: Muhamad Hairi helmi Bin Mansor, key: 66b7a274'
-            label: Text
-            name: 66b7a274
-            widget: string
-          - hint: 'Original text: Dip. in Interior Design, (UiTM), key: -4f54f3c8'
-            label: Text
-            name: '-4f54f3c8'
-            widget: string
-          - hint: 'Original text: Alif Aiman Bin Abu, key: 39362415'
-            label: Text
-            name: '39362415'
-            widget: string
-          - hint: 'Original text: Architect, key: 1424fbd5'
-            label: Text
-            name: 1424fbd5
-            widget: string
-          - hint: >-
-              Original text: Bach. of Science Architecture, (IUKL), key:
-              -90c6276
-            label: Text
-            name: '-90c6276'
-            widget: string
-          - hint: 'Original text: Faridah Binti Sani, key: 1069e534'
-            label: Text
-            name: '1069e534'
-            widget: string
-          - hint: 'Original text: Senior Interior Designer, key: -35ec0a75'
-            label: Text
-            name: '-35ec0a75'
-            widget: string
-          - hint: >-
-              Original text: Bach. of Interior Architecture (HONS) (UiTM), key:
-              -1480c4b1
-            label: Text
-            name: '-1480c4b1'
+            name: 17c8cad
             widget: string
           - hint: 'Original text: Raihana Binti Zunaidi, key: 4c990fe2'
             label: Text
             name: 4c990fe2
-            widget: string
-          - hint: 'Original text: Junior Interior Designer, key: -6ee07c3c'
-            label: Text
-            name: '-6ee07c3c'
             widget: string
           - hint: >-
               Original text: Bach. of Interior Architecture (UiTM), key:
@@ -1364,9 +1388,9 @@ collections:
             label: Text
             name: 6cd4f01d
             widget: string
-          - hint: 'Original text: Asst. Quantity Surveyor, key: 76fc522d'
+          - hint: 'Original text: Quantity Surveyor, key: d6c52b2'
             label: Text
-            name: 76fc522d
+            name: d6c52b2
             widget: string
           - hint: 'Original text: Dip. in Quantity Surveying, (POLIKB), key: 55373813'
             label: Text
@@ -1382,6 +1406,10 @@ collections:
             label: Text
             name: '-73761fd6'
             widget: string
+          - hint: 'Original text: Bach. of Accounting (Hons.), (IIUM), key: -5cb483ac'
+            label: Text
+            name: '-5cb483ac'
+            widget: string
           - hint: 'Original text: Nor Hawallisa Binti Awaludin, key: 1c6f4974'
             label: Text
             name: 1c6f4974
@@ -1390,13 +1418,23 @@ collections:
             label: Text
             name: '-7cbf9395'
             widget: string
-          - hint: 'Original text: Bach. of Accountancy (UiTM), key: -3342df69'
+          - hint: 'Original text: Dip. in Accountancy (UiTM), key: -452064be'
             label: Text
-            name: '-3342df69'
+            name: '-452064be'
             widget: string
-          - hint: 'Original text: Human Resources Team, key: -7d3940d5'
+          - hint: 'Original text: NURFARHEEN QISTINA BINTI ZAFRI, key: 59a13de7'
             label: Text
-            name: '-7d3940d5'
+            name: 59a13de7
+            widget: string
+          - hint: >-
+              Original text: Bach. of Business Administration Finance (Hons)
+              (UiTM), key: 770fff04
+            label: Text
+            name: 770fff04
+            widget: string
+          - hint: 'Original text: HR & Admin Team, key: -339a9ba2'
+            label: Text
+            name: '-339a9ba2'
             widget: string
           - hint: 'Original text: Nor Aleiya Binti Nasrir, key: -2dd474c7'
             label: Text
@@ -1407,10 +1445,10 @@ collections:
             name: 8a762fd
             widget: string
           - hint: >-
-              Original text: Bach. of Administrative Science (Hons) (UiTM), key:
-              -1ec1305c
+              Original text: Bach. of Administrative Science and Policy Studies
+              (Hons), (UiTM), key: 4b1ad800
             label: Text
-            name: '-1ec1305c'
+            name: 4b1ad800
             widget: string
           - hint: 'Original text: Muhammad Yassier Bin KhairulL Amir, key: -16fed31a'
             label: Text
@@ -1585,6 +1623,13 @@ collections:
               -102e229b
             label: Link
             name: '-102e229b'
+            widget: string
+          - hint: >-
+              Original link:
+              https://www.tiktok.com/@ideationsb?_r=1&_t=ZS-96JXJgX5mIH, key:
+              6227169d
+            label: Link
+            name: 6227169d
             widget: string
           - hint: 'Original link: tel:+60361888567, key: 73b563a6'
             label: Link

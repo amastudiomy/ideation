@@ -1,5 +1,5 @@
 ---
-f_order: 1
+f_order: 22
 f_url-4: http://ideation-staging.webflow.io/projects#boustead-new-head-office
 f_logo:
   url: /assets/external/6690f2821acc87ac5ad71866_boustead.png
@@ -36,8 +36,8 @@ f_image-no-8:
 title: Boustead New Head Office
 slug: boustead-new-head-office
 created-on: '2023-07-16T06:44:49.763Z'
-updated-on: '2024-07-15T17:05:53.358Z'
-published-on: '2024-07-15T17:11:50.146Z'
+updated-on: '2026-05-25T07:24:13.115Z'
+published-on: '2026-05-25T07:54:32.533Z'
 f__noSearch: null
 layout: '[projects].html'
 tags: projects

@@ -10,42 +10,34 @@ f_project-description-2: >-
   KOTA ISKANDAR, ISKANDAR PUTERI, JOHOR DARUL TA'ZIIM.
 f_project-value-2: RM 13,044,311.00 (on-going project)
 f_bg-image:
-  url: >-
-    /assets/external/6a13fec737421d3256e09c8e_whatsapp20image202026-05-1220at2011.55.39%20AM%20(1).jpeg
+  url: /assets/external/6a79525d640a614f85b8903e_jbcc20-20001.webp
   alt: null
 f_image-no-2:
-  url: >-
-    /assets/external/6a13fec92539d75e9df41616_whatsapp20image202026-05-1220at2011.55.39%20AM.jpeg
+  url: /assets/external/6a79525f72269df7e533a07a_jbcc20-20004.webp
   alt: null
 f_image-no-3:
-  url: >-
-    /assets/external/6a13fecae1d9703da674f6f3_whatsapp20image202026-05-1220at2011.55.41%20AM%20(1).jpeg
+  url: /assets/external/6a795261f6ef788d0e02d6d5_jbcc20-20005.webp
   alt: null
 f_image-no-4:
-  url: >-
-    /assets/external/6a13fecc23840c571096ac29_whatsapp20image202026-05-1220at2011.55.41%20AM%20(2).jpeg
+  url: /assets/external/6a795262412a551d48471f02_jbcc20-20006.webp
   alt: null
 f_image-no-5:
-  url: >-
-    /assets/external/6a13fecae1d9703da674f6f3_whatsapp20image202026-05-1220at2011.55.41%20AM%20(1).jpeg
+  url: /assets/external/6a795264ae665801526dc75c_jbcc20-20007.webp
   alt: null
 f_image-no-6:
-  url: >-
-    /assets/external/6a13fed08a46ed51246249a4_whatsapp20image202026-05-1220at2011.55.42%20AM%20(1).jpeg
+  url: /assets/external/6a79526a9e6781a8866c3b1e_jbcc20-20008.webp
   alt: null
 f_image-no-7:
-  url: >-
-    /assets/external/6a13fed48f34ca7e123c7072_whatsapp20image202026-05-1220at2011.55.42%20AM%20(2).jpeg
+  url: /assets/external/6a79526cc2b10b0094a50895_jbcc20-20009.webp
   alt: null
 f_image-no-8:
-  url: >-
-    /assets/external/6a13fed7b81f34fb340a7752_whatsapp20image202026-05-1220at2011.55.42%20AM.jpeg
+  url: /assets/external/6a79526d20408fc2bffd988f_jbcc20-20011.webp
   alt: null
 title: JOHOR BAHRU COURT COMPLEX
 slug: johor-bahru-court-complex-rm-13-044-311-00-proposed-development-of-t
 created-on: '2026-05-25T07:48:42.632Z'
-updated-on: '2026-05-25T07:52:49.016Z'
-published-on: '2026-05-25T07:54:32.533Z'
+updated-on: '2026-08-10T04:24:19.405Z'
+published-on: '2026-08-10T04:25:40.416Z'
 f__noSearch: false
 layout: '[projects].html'
 tags: projects

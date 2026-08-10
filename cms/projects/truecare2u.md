@@ -8,7 +8,7 @@ f_project-description-2: >-
   CADANGAN PEMBANGUNAN PEJABAT PENTADBIRAN 01-08, LEVEL 1, PLAZA AZALEA JALAN
   PERSIARAN BANDAR RAYA, SEKSYEN 14, 40000 SHAH ALAM, SELANGOR DARUL EHSAN,
   MUKIM BANDAR SHAH ALAM, SELANGOR DARUL EHSAN.
-f_project-value-2: null
+f_project-value-2: RM124,.000.00
 f_bg-image:
   url: /assets/external/6a13fb43c5e173a625e860f7_4.jpeg
   alt: null
@@ -36,8 +36,8 @@ f_image-no-8:
 title: TRUECARE2U
 slug: truecare2u
 created-on: '2026-05-25T07:34:39.805Z'
-updated-on: '2026-05-25T07:34:44.515Z'
-published-on: '2026-05-25T07:54:32.533Z'
+updated-on: '2026-08-10T04:45:00.652Z'
+published-on: '2026-08-10T04:45:00.652Z'
 f__noSearch: false
 layout: '[projects].html'
 tags: projects

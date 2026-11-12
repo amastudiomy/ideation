@@ -3,7 +3,8 @@ f_order: 1
 f_url-4: >-
   https://ideation-stagings.webflow.io/projects/johor-bahru-court-complex-rm-13-044-311-00-proposed-development-of-t
 f_logo:
-  url: /assets/external/6a13fe71ef532a5e2f58279a_images.png
+  url: >-
+    /assets/external/6af5c074b86965d1ad139e6f_6a13fe71ef532a5e2f58279a_images.png
   alt: null
 f_project-description-2: >-
   PROPOSED DEVELOPMENT OF THE NEW JOHOR BAHRU COURT COMPLEX ON LOT PTD 206970 AT
@@ -36,8 +37,8 @@ f_image-no-8:
 title: JOHOR BAHRU COURT COMPLEX
 slug: johor-bahru-court-complex-rm-13-044-311-00-proposed-development-of-t
 created-on: '2026-05-25T07:48:42.632Z'
-updated-on: '2026-11-12T12:48:36.524Z'
-published-on: '2026-11-12T12:54:39.130Z'
+updated-on: '2026-11-12T13:34:57.474Z'
+published-on: '2026-11-12T14:05:13.461Z'
 f__noSearch: false
 layout: '[projects].html'
 tags: projects

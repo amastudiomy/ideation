@@ -3,7 +3,8 @@ f_order: 6
 f_url-4: >-
   https://ideation-stagings.webflow.io/projects/student-lounge-at-dar-al-hikamah-library
 f_logo:
-  url: /assets/external/6a13fab0fc3c68b362354c68_images.png
+  url: >-
+    /assets/external/6af5c15d7c614e9e94bd9739_6a13fab0fc3c68b362354c68_images.png
   alt: null
 f_project-description-2: >-
   PROPOSED UPGRADING WORKS FOR STUDENT LOUNGE AT DAR AL-HIKMAH LIBRARY,
@@ -36,8 +37,8 @@ f_image-no-8:
 title: STUDENT LOUNGE AT DAR AL-HIKAMAH LIBRARY
 slug: student-lounge-at-dar-al-hikamah-library
 created-on: '2026-05-25T07:32:04.713Z'
-updated-on: '2026-11-12T13:00:45.482Z'
-published-on: '2026-11-12T13:00:45.482Z'
+updated-on: '2026-11-12T13:38:42.693Z'
+published-on: '2026-11-12T14:05:13.461Z'
 f__noSearch: false
 layout: '[projects].html'
 tags: projects

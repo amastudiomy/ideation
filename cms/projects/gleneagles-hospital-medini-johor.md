@@ -2,7 +2,8 @@
 f_order: 5
 f_url-4: https://ideation-stagings.webflow.io/projects/gleneagles-hospital-medini-johor
 f_logo:
-  url: /assets/external/6a13f9e25d4aa63df2ead2f1_download.png
+  url: >-
+    /assets/external/6af5c18d0e03ee66e0b1c3ed_6a13f9e25d4aa63df2ead2f1_download.png
   alt: null
 f_project-description-2: >-
   THE RENOVATION OF DOCTORS LOUNGE LEVEL 2M, GLENEAGLES HOSPITAL MEDINI JOHOR
@@ -35,8 +36,8 @@ f_image-no-8:
 title: GLENEAGLES HOSPITAL MEDINI JOHOR
 slug: gleneagles-hospital-medini-johor
 created-on: '2026-05-25T07:29:39.492Z'
-updated-on: '2026-11-12T13:00:40.494Z'
-published-on: '2026-11-12T13:00:40.494Z'
+updated-on: '2026-11-12T13:39:28.213Z'
+published-on: '2026-11-12T14:05:13.461Z'
 f__noSearch: false
 layout: '[projects].html'
 tags: projects

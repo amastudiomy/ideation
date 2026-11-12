@@ -1,5 +1,5 @@
 ---
-f_order: 24
+f_order: 6
 f_url-4: >-
   https://ideation-stagings.webflow.io/projects/student-lounge-at-dar-al-hikamah-library
 f_logo:
@@ -36,8 +36,8 @@ f_image-no-8:
 title: STUDENT LOUNGE AT DAR AL-HIKAMAH LIBRARY
 slug: student-lounge-at-dar-al-hikamah-library
 created-on: '2026-05-25T07:32:04.713Z'
-updated-on: '2026-05-25T07:32:04.713Z'
-published-on: '2026-05-25T07:32:04.713Z'
+updated-on: '2026-11-12T13:00:45.482Z'
+published-on: '2026-11-12T13:00:45.482Z'
 f__noSearch: false
 layout: '[projects].html'
 tags: projects

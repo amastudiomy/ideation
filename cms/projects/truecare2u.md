@@ -1,5 +1,5 @@
 ---
-f_order: 25
+f_order: 7
 f_url-4: https://ideation-stagings.webflow.io/projects/truecare2u
 f_logo:
   url: /assets/external/6a13fb240a2225ab7eaf97ec_truecare2u_logo.jpg
@@ -36,8 +36,8 @@ f_image-no-8:
 title: TRUECARE2U
 slug: truecare2u
 created-on: '2026-05-25T07:34:39.805Z'
-updated-on: '2026-08-10T04:45:00.652Z'
-published-on: '2026-08-10T04:45:00.652Z'
+updated-on: '2026-11-12T13:00:49.900Z'
+published-on: '2026-11-12T13:00:49.900Z'
 f__noSearch: false
 layout: '[projects].html'
 tags: projects

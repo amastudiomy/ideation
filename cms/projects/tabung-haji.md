@@ -1,5 +1,5 @@
 ---
-f_order: 28
+f_order: 3
 f_url-4: https://ideation-stagings.webflow.io/projects/tabung-haji
 f_logo:
   url: /assets/external/6a13ff5bc517fb01f80101e6_tabung20haji.png
@@ -7,36 +7,36 @@ f_logo:
 f_project-description-2: >-
   DESIGN AND BUILD CONTRACTOR FOR UPGRADING AND ENHANCING THE MULTIPURPOSE HALL
   AND MINI THEATRE AT MENARA TH TUN RAZAK, KUALA LUMPUR
-f_project-value-2: RM 3,288,888.00 (on-going project)
+f_project-value-2: RM 3,288,888.00
 f_bg-image:
-  url: /assets/external/6a7951211a91a8112d5ee710_th20-20001.webp
+  url: /assets/external/6af5b428fce2d7446ffbc89a_ideation20-20tabung20haji201.webp
   alt: null
 f_image-no-2:
-  url: /assets/external/6a7952250060d5a6b3a21001_th20-20002.webp
+  url: /assets/external/6af5b42dff393c3aced10515_ideation20-20tabung20haji202.webp
   alt: null
 f_image-no-3:
-  url: /assets/external/6a79522e2e5bff50f47c385a_th20-20003.webp
+  url: /assets/external/6af5b42f9f935440fbbf28fa_ideation20-20tabung20haji203.webp
   alt: null
 f_image-no-4:
-  url: /assets/external/6a795230fc9a6c8683ef5bf4_th20-20004.webp
+  url: /assets/external/6af5b439a47c6587f477fe2a_ideation20-20tabung20haji204.webp
   alt: null
 f_image-no-5:
-  url: /assets/external/6a795233282075cf34f977f2_th20-20005.webp
+  url: /assets/external/6af5b43b6b3ef6a1b0a1def7_ideation20-20tabung20haji205.webp
   alt: null
 f_image-no-6:
-  url: /assets/external/6a7952378c899361d7aeb82f_th20-20006.webp
+  url: /assets/external/6af5b43d4e557c650569758f_ideation20-20tabung20haji206.webp
   alt: null
 f_image-no-7:
-  url: /assets/external/6a795238c07c88928a8f0737_th20-20007.webp
+  url: /assets/external/6af5b43ea2e644e452a21e92_ideation20-20tabung20haji207.webp
   alt: null
 f_image-no-8:
-  url: /assets/external/6a79523b466e2f3a4ab37323_th20-20008.webp
+  url: /assets/external/6af5b440a3bedc320e280579_ideation20-20tabung20haji208.webp
   alt: null
 title: TABUNG HAJI
 slug: tabung-haji
 created-on: '2026-05-25T07:51:39.385Z'
-updated-on: '2026-08-10T04:23:38.957Z'
-published-on: '2026-08-10T04:25:40.416Z'
+updated-on: '2026-11-12T12:57:38.532Z'
+published-on: '2026-11-12T12:59:27.317Z'
 f__noSearch: false
 layout: '[projects].html'
 tags: projects

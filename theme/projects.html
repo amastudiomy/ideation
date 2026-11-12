@@ -57,7 +57,7 @@
         <div class="subheading text-white">{{ texts.-487ad1f3 }}</div>
       </div>
     </div>
-    {%- assign collection = collections.home-page-hero-background | sort: "-created-on" | offset: 1 | limit: 1 -%}<div class="w-dyn-list">
+    {%- assign collection = collections.home-page-hero-background | filter: "", "ALL", page.inputPath | offset: 1 | limit: 1 -%}<div class="w-dyn-list">
       {%- unless collection.length == 0 -%}<div role="list" class="w-dyn-items">
         {%- for item in collection -%}<div role="listitem" class="w-dyn-item"><img alt="" loading="eager" src="{{ item.data.f_background-image.url }}" class="image-6">
           <div class="hero-bg-desc-wrapper"><img alt="" loading="lazy" src="{{ item.data.f_logo.url }}" class="image-7">
@@ -72,7 +72,7 @@
   </div>
   <div class="section-in-base bottom-radius-1-5 top-radius-1-5">
     <div class="container-1140">
-      {%- assign collection = collections.projects | sort: "-f_order" -%}<div class="w-dyn-list">
+      {%- assign collection = collections.projects | filter: "", "ALL", page.inputPath | sort: "f_order" -%}<div class="w-dyn-list">
         {%- unless collection.length == 0 -%}<div role="list" class="w-dyn-items">
           {%- for item in collection -%}<div role="listitem" class="w-dyn-item">
             <div class="container_projects">

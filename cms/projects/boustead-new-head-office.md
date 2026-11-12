@@ -1,5 +1,5 @@
 ---
-f_order: 22
+f_order: 2
 f_url-4: http://ideation-staging.webflow.io/projects#boustead-new-head-office
 f_logo:
   url: /assets/external/6690f2821acc87ac5ad71866_boustead.png
@@ -8,7 +8,7 @@ f_project-description-2: >-
   Proposed interior renovation works at ground floor, level 3, level 4, level 10
   & level 23. for Boustead Holdings Berhad new head office at nucleus tower,
   Mutiara Damansara, Petaling Jaya, Selangor.
-f_project-value-2: RM 10,792,263
+f_project-value-2: RM 10,792,263.00
 f_bg-image:
   url: /assets/external/667a72b27585718c0ab11759_boustead201.JPG
   alt: null
@@ -36,8 +36,8 @@ f_image-no-8:
 title: Boustead New Head Office
 slug: boustead-new-head-office
 created-on: '2023-07-16T06:44:49.763Z'
-updated-on: '2026-05-25T07:24:13.115Z'
-published-on: '2026-05-25T07:54:32.533Z'
+updated-on: '2026-11-12T13:00:34.521Z'
+published-on: '2026-11-12T13:00:34.521Z'
 f__noSearch: null
 layout: '[projects].html'
 tags: projects

@@ -1,5 +1,5 @@
 ---
-f_order: 26
+f_order: 4
 f_url-4: https://ideation-stagings.webflow.io/projects/suhakam
 f_logo:
   url: /assets/external/6a13fbee9e8bf0a849a2a547_logo.jpg
@@ -35,8 +35,8 @@ f_image-no-8:
 title: SUHAKAM
 slug: suhakam
 created-on: '2026-05-25T07:36:45.590Z'
-updated-on: '2026-05-25T07:36:45.590Z'
-published-on: '2026-05-25T07:36:45.590Z'
+updated-on: '2026-11-12T13:00:54.156Z'
+published-on: '2026-11-12T13:00:54.156Z'
 f__noSearch: false
 layout: '[projects].html'
 tags: projects
